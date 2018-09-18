@@ -5,6 +5,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.umeng.socialize.ShareAction;
+import com.umeng.socialize.bean.SHARE_MEDIA;
+
 public class MainActivity extends Activity {
 
     @Override
@@ -14,6 +17,13 @@ public class MainActivity extends Activity {
 
         AppUtils u = new AppUtils(this);
         Log.i("DeviceId","DeviceId = "+u.getUniqueID());
+
+
+
+       // new ShareAction(this).setPlatform(SHARE_MEDIA.YIXIN)
+
+
+
     }
 
     public String getPesudoUniqueID() {

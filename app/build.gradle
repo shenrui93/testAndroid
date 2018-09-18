@@ -24,4 +24,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //友盟社会化分享
+    compile 'com.umeng.sdk:share-core:6.9.1'
+    compile 'com.umeng.sdk:share-wechat:6.9.1'
+//分享面板
+    compile 'com.umeng.sdk:shareboard-widget:6.9.1'
+
 }
